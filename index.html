@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text</title>
+    <meta content="noarchive nocache" name=robots>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        font-family: 'Comic Neue', sans-serif;
+        background-color: #f7f7f7;
+        background: white;
+        padding: 20px;
+    }
+
+    .circle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 3px solid black;
+        margin-bottom: 20px;
+        filter: url(#rough-border);
+        overflow: hidden;
+        transition: width 0.3s, height 0.3s;
+    }
+
+    .circle img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    h1 {
+        font-size: 28px;
+        margin-bottom: 30px;
+        font-family: 'Comic Neue', sans-serif;
+        filter: url(#rough-border);
+        text-align: center;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .links a {
+        display: block;
+        text-align: center;
+        padding: 10px;
+        width: 200px;
+        border: 3px solid black;
+        border-radius: 20px;
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+        font-family: 'Comic Neue', sans-serif;
+        background-color: white;
+        filter: url(#rough-border);
+        position: relative;
+        transition: width 0.3s, padding 0.3s;
+    }
+
+    @media (max-width: 600px) {
+        .circle {
+            width: 200px;
+            height: 200px;
+        }
+
+        h1 {
+            font-size: 32px;
+        }
+
+        .links a {
+            width: 250px;
+            padding: 15px;
+            font-size: 20px;
+        }
+    }
+
+    @media (max-width: 400px) {
+        .circle {
+            width: 250px;
+            height: 250px;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        .links a {
+            width: 300px;
+            padding: 20px;
+            font-size: 22px;
+        }
+    }
+
+    @media (prefers-color-scheme: dark) {
+        body {
+            background-color: #1e1e1e;
+            color: white;
+        }
+
+        .links a {
+            background-color: #333;
+            color: white;
+            border: 3px solid white;
+        }
+
+        .circle {
+            border: 3px solid white;
+        }
+    }
+    </style>
+</head>
+<body>
+
+    <svg width="0" height="0">
+        <filter id="rough-border">
+            <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="3" result="noise" />
+            <feDisplacementMap in="SourceGraphic" in2="noise" scale="3" />
+        </filter>
+    </svg>
+
+    <div class="circle">
+        <img src="/justsereja.jpg" alt="Image Description">
+    </div>
+
+    <h1>Just Sereja</h1>
+
+    <div class="links">
+        <a target="_blank" href="https://www.twitch.tv/justsereja">Twitch</a>
+    </div>
+
+</body>
+</html>
