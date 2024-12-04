@@ -23,6 +23,34 @@
 	<meta name="twitter:image" content="https://sereja.com/justsereja-cut.jpg" />
 	<meta name="twitter:image:alt" content="Да, это я!" />
 
+	<script type="application/ld+json"> 
+	{
+		"@context": "http://www.schema.org",
+		"@type": "BreadcrumbList",
+		"itemListElement": [
+			{
+				"@type": "ListItem",
+				"position": 1,
+				"item": {
+					"@type": "WebPage",
+					"@id": "/",
+					"name": "Просто Серёжа"
+				}
+			},
+			{
+				"@type": "ListItem",
+				"position": 2,
+				"item": {
+					"@type": "WebPage",
+					"@id": "/#hi",
+					"name": "Привет! 👋"
+				}
+			}
+		]
+	}
+	</script>
+
+
     <style>
     * {
         margin: 0;
@@ -158,9 +186,9 @@
         <img src="/justsereja-alternative-cut.jpg" alt="Да, это я!" title="Да, это я!">
     </div>
 
-    <h1 id=#hi">Просто Серёжа</h1>
+    <h1 id="hi">Просто Серёжа</h1>
 
-    <div class="links">
+    <div id="links" class="links">
         <a target="_blank" href="https://t.me/ProstoSereja">тг канал</a>
 		<a target="_blank" href="https://www.tiktok.com/@prostosereja01">тикток</a>
         <a target="_blank" href="https://www.instagram.com/prostosereja01/">инстаграм</a>
