@@ -1,26 +1,22 @@
 /**
  * Site Configuration File
  * 
- * This file contains all the customizable options for your blog.
- * 
- * IMPORTANT: Replace all placeholder values (morethan-log-astro.sereja.com, Sereja, etc.)
- * with your own information before deploying to production.
+ * This file contains all the customizable options for sereja.com.
  * 
  * After updating this file:
- * 1. Update your RSS feed at /rss.xml
- * 2. Update your sitemap at /sitemap-0.xml
- * 3. Update metadata in package.json
- * 4. Replace images in public/img/
+ * 1. RSS feeds will be automatically updated
+ * 2. Sitemap will be regenerated on build
+ * 3. All metadata will be updated across the site
  */
 
 export default {
   // Basic site information
-  title: "Morethan-Log",
+  title: "Just Sereja",
   description: {
-    en: "A modern blog template built with Astro - fast, responsive, and multilingual",
-    ru: "Современный шаблон блога на Astro - быстрый, адаптивный и многоязычный"
+    en: "It's just my personal blog where I'm trying to find some cool stuff and document it",
+    ru: "Это просто мой личный блог, где я пытаюсь найти что-то крутое и задокументировать это"
   },
-  siteUrl: "https://morethan-log-astro.sereja.com", // Used for RSS, sitemap, and social cards
+  siteUrl: "https://sereja.com", // Used for RSS, sitemap, and social cards
   
   // Author information
   author: {
@@ -28,11 +24,11 @@ export default {
       en: "Sereja",
       ru: "Серёжа"
     },
-    email: "demo@morethan-log.com",
+    email: "just@sereja.com",
     avatar: "/img/avatar.svg", // Author avatar image
     bio: {
-      en: "Full-stack developer passionate about creating beautiful and functional web applications. Building with Astro, React, and modern web technologies.",
-      ru: "Full-stack разработчик, увлеченный созданием красивых и функциональных веб-приложений. Работаю с Astro, React и современными веб-технологиями."
+      en: "I'm just a simple guy trying to find or create some cool stuff around the internet or in real life. Always in search of fun things and good jokes.",
+      ru: "Я просто обычный парень, который пытается найти или создать что-то крутое в интернете или в реальной жизни. Всегда в поиске веселых вещей и хороших шуток."
     }
   },
   
@@ -44,25 +40,23 @@ export default {
   // Now supports language-specific links
   socialLinks: {
     en: {
-      github: "https://github.com/yourusername",
-      twitter: "https://x.com/yourusername",
-      linkedin: "https://linkedin.com/in/yourusername",
-      telegram: "https://t.me/yourusername",
-      tiktok: "https://www.tiktok.com/@yourusername",
-      instagram: "https://www.instagram.com/yourusername/",
-      youtube: "https://www.youtube.com/@yourusername",
-      twitch: "https://www.twitch.tv/yourusername",
+      github: "https://github.com/JustSereja",
+      twitter: "https://x.com/JustSereja_",
+      telegram: "https://t.me/justsereja",
+      tiktok: "https://www.tiktok.com/@justsereja",
+      instagram: "https://www.instagram.com/just.sereja/",
+      youtube: "https://www.youtube.com/@JustSereja",
+      twitch: "https://www.twitch.tv/justsereja",
       // Add or remove social links as needed
     },
     ru: {
-      github: "https://github.com/yourusername-ru",
-      twitter: "https://x.com/yourusername-ru",
-      linkedin: "https://linkedin.com/in/yourusername-ru", 
-      telegram: "https://t.me/yourusername-ru",
-      tiktok: "https://www.tiktok.com/@yourusername-ru",
-      instagram: "https://www.instagram.com/yourusername-ru/",
-      youtube: "https://www.youtube.com/@yourusername-ru",
-      twitch: "https://www.twitch.tv/yourusername-ru",
+      github: "https://github.com/JustSereja",
+      twitter: "https://x.com/prostosereja01",
+      telegram: "https://t.me/prostosereja",
+      tiktok: "https://www.tiktok.com/@prostosereja",
+      instagram: "https://www.instagram.com/prostosereja01/",
+      youtube: "https://www.youtube.com/@prosto-sereja",
+      twitch: "https://www.twitch.tv/justsereja",
       // Add or remove social links as needed
     }
   },
@@ -76,7 +70,7 @@ export default {
       icon: "💻"
     },
     technology: {
-      enabled: true,
+      enabled: false,
       path: "/technology",
       icon: "🚀"
     },
@@ -104,7 +98,7 @@ export default {
     // Enable/disable reading time estimation
     readingTime: true,
     // Enable/disable post views counter
-    viewCounter: false
+    viewCounter: true
   },
   
   // SEO & Meta tags
@@ -112,7 +106,7 @@ export default {
     // Default image for social sharing
     defaultImage: "/img/og-image.svg",
     // Twitter handle without @
-    twitterHandle: "astrodotbuild",
+    twitterHandle: "JustSereja_",
     // Google Analytics ID (if you have one)
     googleAnalytics: "", // e.g., "G-XXXXXXXXXX"
   },

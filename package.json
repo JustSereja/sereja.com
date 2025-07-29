@@ -1,9 +1,9 @@
 {
-  "name": "morethan-log-astro",
+  "name": "sereja-com",
   "type": "module",
   "version": "1.0.0",
-  "description": "A modern, customizable blog template built with Astro - fast, responsive, and multilingual",
-  "author": "Sereja <demo@morethan-log.com>",
+  "description": "Just Sereja - Personal blog where I'm trying to find some cool stuff and document it",
+  "author": "Sereja <just@sereja.com>",
   "license": "MIT",
   "keywords": [
     "astro",
@@ -19,12 +19,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/JustSereja/morethan-log-astro"
+    "url": "https://github.com/JustSereja/sereja.com"
   },
   "bugs": {
-    "url": "https://github.com/JustSereja/morethan-log-astro/issues"
+    "url": "https://github.com/JustSereja/sereja.com/issues"
   },
-  "homepage": "https://morethan-log-astro.sereja.com",
+  "homepage": "https://sereja.com",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
