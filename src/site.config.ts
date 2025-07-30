@@ -11,7 +11,10 @@
 
 export default {
   // Basic site information
-  title: "Just Sereja",
+  title: {
+    en: "Just Sereja",
+    ru: "Просто Серёжа"
+  },
   description: {
     en: "It's just my personal blog where I'm trying to find some cool stuff and document it",
     ru: "Это просто мой личный блог, где я пытаюсь найти что-то крутое и задокументировать это"
