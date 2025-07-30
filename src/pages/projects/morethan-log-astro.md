@@ -8,6 +8,7 @@ image: '/img/posts/placeholder-projects.svg'
 description: 'A modern, customizable blog template built with Astro. Features i18n support, dark mode, full-text search, and SEO optimization.'
 hreflang_en: '/projects/morethan-log-astro'
 hreflang_ru: '/ru/projects/morethan-log-astro'
+AI: true
 ---
 
 I created **Morethan-Log for Astro** - a modern blog template that makes it super easy to start your own blog. It's inspired by the popular [morethan-log](https://github.com/morethanmin/morethan-log) Next.js template, but rebuilt from the ground up for Astro.

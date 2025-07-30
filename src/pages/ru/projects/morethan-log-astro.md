@@ -8,6 +8,7 @@ image: '/img/posts/placeholder-projects.svg'
 description: 'Современный, настраиваемый шаблон блога на Astro. Поддержка i18n, темная тема, полнотекстовый поиск и SEO оптимизация.'
 hreflang_en: '/projects/morethan-log-astro'
 hreflang_ru: '/ru/projects/morethan-log-astro'
+AI: true
 ---
 
 Я создал **Morethan-Log для Astro** - современный шаблон блога, который позволяет супер легко запустить свой собственный блог. Он вдохновлен популярным шаблоном [morethan-log](https://github.com/morethanmin/morethan-log) для Next.js, но полностью переработан для Astro.

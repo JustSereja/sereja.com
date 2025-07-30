@@ -7,6 +7,7 @@ type: page
 custom_category: 'blog'
 hreflang_en: '/about'
 hreflang_ru: '/ru/about'
+AI: true
 ---
 
 # Привет, я Серёжа! 👋
