@@ -28,7 +28,7 @@ export default {
       ru: "Серёжа"
     },
     email: "just@sereja.com",
-    avatar: "/img/avatar.svg", // Author avatar image
+    avatar: "/img/avatar.png", // Author avatar image
     bio: {
       en: "I'm just a simple guy trying to find or create some cool stuff around the internet or in real life. Always in search of fun things and good jokes.",
       ru: "Я просто обычный парень, который пытается найти или создать что-то крутое в интернете или в реальной жизни. Всегда в поиске веселых вещей и хороших шуток."
@@ -59,7 +59,7 @@ export default {
       tiktok: "https://www.tiktok.com/@prostosereja",
       instagram: "https://www.instagram.com/prostosereja01/",
       youtube: "https://www.youtube.com/@prosto-sereja",
-      twitch: "https://www.twitch.tv/justsereja",
+      twitch: "https://www.twitch.tv/prostosereja01",
       // Add or remove social links as needed
     }
   },
