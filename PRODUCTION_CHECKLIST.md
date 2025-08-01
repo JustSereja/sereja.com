@@ -68,7 +68,7 @@ Edit `src/site.config.ts`:
 - [ ] Replace `/public/favicon-32x32.png`
 
 #### Images
-- [ ] Replace `/public/img/avatar.svg` with your avatar
+- [ ] Replace `/public/img/avatar.png` with your avatar
 - [ ] Replace `/public/img/og-image.svg` with your Open Graph image
 - [ ] Replace `/public/img/rss-logo.svg` with your RSS channel logo (144x144px)
   - **Note**: For better RSS reader compatibility, also create `/public/img/rss-logo.png`
