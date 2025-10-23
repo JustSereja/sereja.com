@@ -5,7 +5,7 @@
 The following improvements have been made to the template:
 
 1. **Site Configuration Centralization**
-   - All customizable options now in `site.config.ts`
+   - All customizable options now in `src/config/site.ts`
    - Removed hardcoded author names from posts
    - Social links, categories, and features configurable in one place
 
@@ -35,7 +35,7 @@ The following improvements have been made to the template:
 
 ### 1. **Update Configuration**
 
-Edit `src/site.config.ts`:
+Edit `src/config/site.ts`:
 
 - [ ] Update `title` with your blog name (currently: "Morethan-Log")
 - [ ] Update `description` (both English and Russian)
@@ -68,7 +68,7 @@ Edit `src/site.config.ts`:
 - [ ] Replace `/public/favicon-32x32.png`
 
 #### Images
-- [ ] Replace `/public/img/avatar.png` with your avatar
+- [ ] Replace `/public/img/avatar.svg` with your avatar
 - [ ] Replace `/public/img/og-image.svg` with your Open Graph image
 - [ ] Replace `/public/img/rss-logo.svg` with your RSS channel logo (144x144px)
   - **Note**: For better RSS reader compatibility, also create `/public/img/rss-logo.png`
