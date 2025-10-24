@@ -1,6 +1,4 @@
-export const SUPPORTED_LANGUAGES = ['en', 'ru'] as const;
-
-export type LocaleCode = typeof SUPPORTED_LANGUAGES[number];
+import type { LocaleCode } from './locales';
 
 export type LocaleRecord<T> = Record<LocaleCode, T>;
 
@@ -17,6 +15,15 @@ export interface SiteCategoryConfig {
   icon: string;
   label: LocaleRecord<string>;
   description: LocaleRecord<string>;
+}
+
+export interface SiteNavigationItemConfig {
+  id: string;
+  labelKey?: string;
+  label?: LocaleRecord<string>;
+  translationKey?: string;
+  path?: string;
+  external?: string;
 }
 
 export interface SiteFeatureToggles {
@@ -47,6 +54,7 @@ export interface SiteConfig {
   featuredImageFallback: string;
   socialLinks: SocialLinkConfig;
   categories: Record<string, SiteCategoryConfig>;
+  navigation: SiteNavigationItemConfig[];
   features: SiteFeatureToggles;
   seo: SiteSeoConfig;
   defaultLanguage: LocaleCode;
@@ -56,3 +64,5 @@ export interface SiteConfig {
     options: Intl.DateTimeFormatOptions;
   }>;
 }
+
+export type { LocaleCode } from './locales';
