@@ -97,20 +97,10 @@ const siteConfig: SiteConfig = {
 
   navigation: [
     {
-      id: 'blog',
-      labelKey: 'ui.blog',
-      path: '/blog',
-    },
-    {
-      id: 'projects',
-      labelKey: 'ui.projects',
-      path: '/projects',
-    },
-    {
       id: 'about',
       labelKey: 'ui.about',
       translationKey: 'about',
-    },
+    }
   ],
 
   // Feature toggles
