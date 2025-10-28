@@ -9,8 +9,8 @@ const siteConfig: SiteConfig = {
     ru: 'Просто Серёжа',
   },
   description: {
-    en: "It's just my personal blog where I'm trying to find some cool stuff and document it",
-    ru: 'Это просто мой личный блог, где я пытаюсь найти что-то крутое и задокументировать это',
+    en: "My personal corner where I try to find something cool and funny and capture it.",
+    ru: 'Мой личный уголок, где я пытаюсь найти что-то крутое, и прикольное, и запечатлеть это.',
   },
 
   // Author information
@@ -33,90 +33,90 @@ const siteConfig: SiteConfig = {
 
   // Contact links
   contactLinks: [
-    {
-      id: 'github',
-      label: {
-        en: 'GitHub',
-        ru: 'GitHub',
-      },
-      url: {
-        en: 'https://github.com/JustSereja',
-        ru: 'https://github.com/JustSereja',
-      },
-      icon: '🐙',
-    },
-    {
-      id: 'twitter',
-      label: {
-        en: 'Twitter',
-        ru: 'Твиттер',
-      },
-      url: {
-        en: 'https://x.com/JustSereja_',
-        ru: 'https://x.com/prostosereja01',
-      },
-      icon: '🐦',
-    },
-    {
-      id: 'telegram',
-      label: {
-        en: 'Telegram',
-        ru: 'Телеграм',
-      },
-      url: {
-        en: 'https://t.me/justsereja',
-        ru: 'https://t.me/prostosereja',
-      },
-      icon: '✉️',
-    },
-    {
-      id: 'tiktok',
-      label: {
-        en: 'TikTok',
-        ru: 'ТикТок',
-      },
-      url: {
-        en: 'https://www.tiktok.com/@justsereja',
-        ru: 'https://www.tiktok.com/@prostosereja',
-      },
-      icon: '🎵',
-    },
-    {
-      id: 'instagram',
-      label: {
-        en: 'Instagram',
-        ru: 'Инстаграм',
-      },
-      url: {
-        en: 'https://www.instagram.com/just.sereja/',
-        ru: 'https://www.instagram.com/prostosereja01/',
-      },
-      icon: '📸',
-    },
-    {
-      id: 'youtube',
-      label: {
-        en: 'YouTube',
-        ru: 'YouTube',
-      },
-      url: {
-        en: 'https://www.youtube.com/@JustSereja',
-        ru: 'https://www.youtube.com/@prosto-sereja',
-      },
-      icon: '📺',
-    },
-    {
-      id: 'twitch',
-      label: {
-        en: 'Twitch',
-        ru: 'Twitch',
-      },
-      url: {
-        en: 'https://www.twitch.tv/justsereja',
-        ru: 'https://www.twitch.tv/prostosereja01',
-      },
-      icon: '🎮',
-    },
+    // {
+    //   id: 'github',
+    //   label: {
+    //     en: 'GitHub',
+    //     ru: 'GitHub',
+    //   },
+    //   url: {
+    //     en: 'https://github.com/JustSereja',
+    //     ru: 'https://github.com/JustSereja',
+    //   },
+    //   icon: '🐙',
+    // },
+    // {
+    //   id: 'twitter',
+    //   label: {
+    //     en: 'Twitter',
+    //     ru: 'Твиттер',
+    //   },
+    //   url: {
+    //     en: 'https://x.com/JustSereja_',
+    //     ru: 'https://x.com/prostosereja01',
+    //   },
+    //   icon: '🐦',
+    // },
+    // {
+    //   id: 'telegram',
+    //   label: {
+    //     en: 'Telegram',
+    //     ru: 'Телеграм',
+    //   },
+    //   url: {
+    //     en: 'https://t.me/justsereja',
+    //     ru: 'https://t.me/prostosereja',
+    //   },
+    //   icon: '✉️',
+    // },
+    // {
+    //   id: 'tiktok',
+    //   label: {
+    //     en: 'TikTok',
+    //     ru: 'ТикТок',
+    //   },
+    //   url: {
+    //     en: 'https://www.tiktok.com/@justsereja',
+    //     ru: 'https://www.tiktok.com/@prostosereja',
+    //   },
+    //   icon: '🎵',
+    // },
+    // {
+    //   id: 'instagram',
+    //   label: {
+    //     en: 'Instagram',
+    //     ru: 'Инстаграм',
+    //   },
+    //   url: {
+    //     en: 'https://www.instagram.com/just.sereja/',
+    //     ru: 'https://www.instagram.com/prostosereja01/',
+    //   },
+    //   icon: '📸',
+    // },
+    // {
+    //   id: 'youtube',
+    //   label: {
+    //     en: 'YouTube',
+    //     ru: 'YouTube',
+    //   },
+    //   url: {
+    //     en: 'https://www.youtube.com/@JustSereja',
+    //     ru: 'https://www.youtube.com/@prosto-sereja',
+    //   },
+    //   icon: '📺',
+    // },
+    // {
+    //   id: 'twitch',
+    //   label: {
+    //     en: 'Twitch',
+    //     ru: 'Twitch',
+    //   },
+    //   url: {
+    //     en: 'https://www.twitch.tv/justsereja',
+    //     ru: 'https://www.twitch.tv/prostosereja01',
+    //   },
+    //   icon: '🎮',
+    // },
   ],
 
   projects: [
@@ -141,21 +141,8 @@ const siteConfig: SiteConfig = {
         ru: 'Блог',
       },
       description: {
-        en: 'Personal thoughts, experiences, and insights from my journey',
-        ru: 'Личные мысли, опыт и идеи из моего путешествия',
-      },
-    },
-    technology: {
-      enabled: false,
-      path: '/technology',
-      icon: '🚀',
-      label: {
-        en: 'Technology',
-        ru: 'Технологии',
-      },
-      description: {
-        en: 'Deep dives into web development, tools, and best practices',
-        ru: 'Глубокое погружение в веб-разработку, инструменты и лучшие практики',
+        en: 'Silly thoughts, ideas, and various kinds of circumstances.',
+        ru: 'Глупые мысли, идеи, и разного рода обстоятельства.',
       },
     },
     projects: {
@@ -167,8 +154,8 @@ const siteConfig: SiteConfig = {
         ru: 'Проекты',
       },
       description: {
-        en: 'Showcase of my work and open-source contributions',
-        ru: 'Витрина моих работ и вклада в открытый исходный код',
+        en: 'Some cool (and sometimes ordinary) things that I put at least some effort into.',
+        ru: 'Какие-то крутые (иногда и обычные) штуки, к которым я приложил хоть какое-то усилие.',
       },
     },
   },
