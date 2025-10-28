@@ -8,7 +8,7 @@ image: '/img/posts/placeholder-projects.svg'
 aiGenerated: false
 ---
 
-Я долго гонял оригинальный [morethan-log](https://github.com/morethanmin/morethan-log) на Next.js, но захотел тот же вайб без React и тяжелых бандлов. Собрал свой порт на Astro, привёл всё к TypeScript, добавил мелкие удобства для себя и теперь делюсь им как **Morethan-Log для Astro**.
+Я однажды наткнулся на оригинальный [morethan-log](https://github.com/morethanmin/morethan-log) на Next.js с привязкой к Notion: дизайн зашел моментально, а вот идея жить в чужом workspace вообще не улыбалась. Так что собрал свой порт на Astro, привёл всё к TypeScript, добавил мелкие удобства для себя и теперь делюсь им как **Morethan-Log для Astro**.
 
 ## Что за шаблон
 - Сразу два языка (английский и русский) и понятная настройка новых через `src/config/locales.ts`.

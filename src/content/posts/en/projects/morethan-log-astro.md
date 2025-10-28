@@ -8,7 +8,7 @@ image: '/img/posts/placeholder-projects.svg'
 aiGenerated: false
 ---
 
-I ported the original [morethan-log](https://github.com/morethanmin/morethan-log) idea to Astro for my own blog. The result is **Morethan-Log for Astro**. Same clean layout, but powered by Astro, TypeScript, and a bunch of small quality of life tweaks I wanted for daily use.
+I bumped into the original Notion-powered [morethan-log](https://github.com/morethanmin/morethan-log) template, loved the vibe, but didn't want to wire my blog to an external workspace. So I rebuilt the whole flow in Astro, added the helpers I missed, and shipped it as **Morethan-Log for Astro**. Same clean layout, zero vendor lock, and a few extra knobs I need day to day.
 
 ## What you get
 - Multilingual blog ready on day one. English and Russian ship with the template, and adding more is just another entry in `src/config/locales.ts`.
