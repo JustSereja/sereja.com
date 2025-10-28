@@ -3,7 +3,7 @@ title: Morethan-Log for Astro - Modern Blog Template
 h1: Morethan-Log for Astro
 description: My Astro port of morethan-log. Clean design, fast build times, multilingual, search, RSS, and typed configs out of the box.
 date: '2025-07-30'
-announcement: The personal blog template that powers my website.
+announcement: The personal blog template that powers my website
 image: '/img/posts/placeholder-projects.svg'
 aiGenerated: false
 ---

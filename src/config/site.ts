@@ -9,8 +9,8 @@ const siteConfig: SiteConfig = {
     ru: 'Просто Серёжа',
   },
   description: {
-    en: "My personal corner where I try to find something cool and funny and capture it.",
-    ru: 'Мой личный уголок, где я пытаюсь найти что-то крутое, и прикольное, и запечатлеть это.',
+    en: "My personal corner where I try to find something cool and funny and capture it",
+    ru: 'Мой личный уголок, где я пытаюсь найти что-то крутое, и прикольное, и запечатлеть это',
   },
 
   // Author information
@@ -22,8 +22,8 @@ const siteConfig: SiteConfig = {
     email: 'just@sereja.com',
     avatar: '/img/avatar.png',
     bio: {
-      en: "I'm just a simple guy trying to find or create some cool stuff around the internet or in real life. Always in search of fun things and good jokes.",
-      ru: 'Я просто обычный парень, который пытается найти или создать что-то крутое в интернете или в реальной жизни. Всегда в поиске веселых вещей и хороших шуток.',
+      en: "Well, I’m just a simple guy. Trying to find or create some cool stuff around the internet or in real life sometimes. Just in search of some fun stuff or joke.",
+      ru: 'Я просто обычный парень. Пытаюсь найти или создать что-то крутое в интернете или иногда в реальной жизни. Просто в поиске фана, и чего-то прикольного.',
     },
   },
 
@@ -141,8 +141,8 @@ const siteConfig: SiteConfig = {
         ru: 'Блог',
       },
       description: {
-        en: 'Silly thoughts, ideas, and various kinds of circumstances.',
-        ru: 'Глупые мысли, идеи, и разного рода обстоятельства.',
+        en: 'Silly thoughts, ideas, and various kinds of circumstances',
+        ru: 'Глупые мысли, идеи, и разного рода обстоятельства',
       },
     },
     projects: {
@@ -154,8 +154,8 @@ const siteConfig: SiteConfig = {
         ru: 'Проекты',
       },
       description: {
-        en: 'Some cool (and sometimes ordinary) things that I put at least some effort into.',
-        ru: 'Какие-то крутые (иногда и обычные) штуки, к которым я приложил хоть какое-то усилие.',
+        en: 'Some cool (and sometimes ordinary) things that I put at least some effort into',
+        ru: 'Какие-то крутые (иногда и обычные) штуки, к которым я приложил хоть какое-то усилие',
       },
     },
   },
