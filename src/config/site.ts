@@ -9,7 +9,7 @@ const siteConfig: SiteConfig = {
     ru: 'Просто Серёжа',
   },
   description: {
-    en: "My personal corner where I try to find something cool and funny and capture it",
+    en: "Forever hunting for that so-called fun. Know something cool or funny? Share it!",
     ru: 'В вечных поисках так называемого прикола. Знаешь что-то прикольное? Поделись!',
   },
 
@@ -22,7 +22,7 @@ const siteConfig: SiteConfig = {
     email: 'just@sereja.com',
     avatar: '/img/avatar.png',
     bio: {
-      en: "Well, I’m just a simple guy. Trying to find or create some cool stuff around the internet or in real life sometimes. Just in search of some fun stuff or joke.",
+      en: 'I’m just a regular guy. Trying to find or create something cool on the internet or sometimes in real life. Always chasing some fun and whatever silly joke I can catch.',
       ru: 'Я просто обычный парень. Пытаюсь найти или создать что-то крутое в интернете или иногда в реальной жизни. В поиске фана, и чего-то прикольного.',
     },
   },

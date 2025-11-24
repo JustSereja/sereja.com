@@ -1,23 +1,19 @@
 ---
 title: "Just Sereja: About Me"
-h1: Hi, I'm Sereja! 👋
-description: A quick intro to who I am and what this blog is about.
+h1: Hi, I'm Just Sereja! 👋
+description: A bit about me and why this blog exists.
 ---
 
-Well, I'm just a simple guy. Trying to find or create some cool stuff around the internet or in real life sometimes. Just in search of some fun stuff or joke.
+Trying to find or create something cool on the internet or, occasionally, in real life. Just chasing some fun and whatever silly joke I can catch.
 
 ## What I Do
 
-I document my adventures and discoveries here on this blog. Whether it's a cool project I'm working on, something interesting I found online, or just random thoughts that cross my mind - you'll find it all here.
-
-## Why "Just Sereja"?
-
-Because that's exactly what I am - just Sereja. No fancy titles, no pretentious descriptions. Just a person exploring the world and sharing what I find interesting.
+Diligently learning how to slack off and enjoy it. I want to master doing nothing and somehow extract the **prikol** from it.
 
 ## Connect With Me
 
-Feel free to reach out through any of my social channels. I'm always up for a good conversation or collaboration on something fun!
+Follow my socials, support me, drop a line if you have something to say. I'll be happy with any form of support.
 
 ---
 
-*This blog is where I keep track of all the cool stuff I find or create. Hope you find something interesting here too!*
+*I seriously doubt that in 2025+ people still read websites, and I'm not counting on it. This blog is purely a personal stash of cool stuff I like one way or another. A little bit of personal space.*

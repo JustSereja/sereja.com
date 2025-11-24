@@ -1,23 +1,27 @@
 ---
-title: Morethan-Log for Astro - Modern Blog Template
+title: Morethan-Log for Astro - Personal Blog Template
 h1: Morethan-Log for Astro
-description: My Astro port of morethan-log. Clean design, fast build times, multilingual, search, RSS, and typed configs out of the box.
+description: The morethan-log personal blog template for Astro JS. Clean design, fast builds, multilingual, search, RSS, and typed configs out of the box.
 date: '2025-07-30'
 announcement: The personal blog template that powers my website
 image: '/img/posts/placeholder-projects.svg'
 aiGenerated: false
 ---
 
-I bumped into the original Notion-powered [morethan-log](https://github.com/morethanmin/morethan-log) template, loved the vibe, but didn't want to wire my blog to an external workspace. So I rebuilt the whole flow in Astro, added the helpers I missed, and shipped it as **Morethan-Log for Astro**. Same clean layout, zero vendor lock, and a few extra knobs I need day to day.
+When it comes to choosing a template for a site, I go feral. It turns into endless procrastination and scrolling through every possible option until I finally find my hidden gem.
 
-## What you get
-- Multilingual blog ready on day one. English and Russian ship with the template, and adding more is just another entry in `src/config/locales.ts`.
-- Built-in search, dark mode, RSS feeds per language, and typed frontmatter so you do not forget important fields.
-- Categories, navigation, contact links, and feature toggles live in `src/config/site.ts`. Every option is typed, so your editor keeps you honest.
-- Markdown or MDX posts with React islands when you need an interactive bit. Hydration works like any Astro project.
-- Clean placeholders for posts, per-category RSS icons, Open Graph tags, and all the SEO bits already wired up.
+That is how I stumbled on [morethan-log](https://github.com/morethanmin/morethan-log). The template stuck with me hard, and I tried to port it manually from the original repo, but that did not work out.
 
-## Quick start
+So I just gave the task to a layout dev to rebuild the whole template into static HTML, then asked AI agents to port it to my beloved Astro JS and wrap it in a bunch of goodies under the hood. That is how ✨ [Morethan-Log for Astro](https://github.com/JustSereja/morethan-log-astro) ✨ appeared.
+
+## 📦 What's under the hood
+- Multilingual setup (English and Russian out of the box) with a clear way to add new locales via `src/config/locales.ts`.
+- Search, dark theme, per-language RSS, plus typed frontmatter so you do not forget the description or the date.
+- The whole site structure lives in `src/config/site.ts`: navigation, categories, contact sections, feature switches, and date formats.
+- Write plain Markdown and plug in MDX with React islands only where you actually want interactivity.
+- Ready-made placeholders for images, Open Graph tags, and other SEO bits, so the page looks good even without custom covers.
+
+## 🚀 How to start
 
 ```bash
 npm create astro@latest -- --template JustSereja/morethan-log-astro
@@ -25,41 +29,39 @@ cd your-blog
 npm run dev
 ```
 
-The dev server runs at `http://localhost:4321`. Edit files under `src/`, save, and the preview reloads.
+The local server waits at `http://localhost:4321`. Tweak files in `src/` and see changes right away. If it is easier to start from a GitHub template, hit the button on the repo, clone your fork, then `npm install` and `npm run dev`.
 
-Prefer the GitHub template flow? Hit the "Use this template" button on the repo, clone your copy, then run `npm install` and `npm run dev`.
+## ⚙️ Tune it to yourself
 
-## Set up your details
+- `src/config/site.ts` holds the title, descriptions, author, menu, categories, contacts, feature flags, and date formats for each language.
+- `src/config/locales.ts` lists the languages: code, locale, label, and default. That keeps links and hreflang in sync.
+- You can give every language its own links or even different author names. Emoji and custom SVG icons are supported.
+- Styles sit in `public/css/style.css`. Change the variables to get your palette. Light and dark themes are already in place.
 
-- `src/config/site.ts` is the main control center: site title, descriptions, author info, navigation, categories, contact links, feature flags, and even date formats per locale.
-- `src/config/locales.ts` lists every language. Point the code, native label, locales, and default flag there so links, `<html lang>`, and hreflang tags stay in sync.
-- Want per-language contact links or different author names? The config supports per-locale labels and URLs, plus inline emoji or custom SVG icons.
-- Styles live in `public/css/style.css`. Tweak variables there if you need different colors. The dark theme is already in place.
+## 📝 Content and posts
 
-## Writing posts
-
-Content lives under `src/content/posts/<lang>/<category>/`. Keep file names the same between languages so the template hooks them together automatically.
+All posts live in `src/content/posts/<lang>/<category>/`. To connect translations, keep filenames the same across languages.
 
 ```markdown
 ---
 title: 'New project'
 h1: 'New project'
-description: 'Short teaser that shows up in cards'
-date: '2025-10-28'
-announcement: 'Optional list summary'
+description: 'Short teaser for the cards'
+date: '2025-07-30'
+announcement: 'Optional text for lists'
 image: '/img/posts/your-cover.jpg'
 aiGenerated: false
 draft: false
 ---
 ```
 
-Leave the `permalink` alone unless you want a custom slug. The folder already gives you the language and category path. Pages under `src/content/pages` follow the same idea.
+You almost never need `permalink`. The folder already defines the language and category. Pages in `src/content/pages` work the same way.
 
-## Handy extras
+## 🎁 A couple of bonuses
 
-- RSS feeds ship per language: `/rss.xml` for the default language, plus `/<lang>/rss.xml` for each locale. Full content, proper absolute URLs, and author info included.
-- The build copies `dist/404.html` to `dist/404/index.html`, so GitHub Pages and Netlify both serve the not-found page correctly.
-- Want more languages? Add them to `src/i18n/ui.ts`, extend the translations, update `site.ts`, and drop in matching content folders.
-- Need to keep your fork fresh? Run `make update-template`. It pulls the latest template into a staging folder, syncs layouts, scripts, and assets, and leaves your content and config alone.
+- RSS is generated for each language: `/rss.xml` for the default and `/<lang>/rss.xml` for the rest. Subscribers get only their language.
+- In the production build `dist/404.html` is copied to `dist/404/index.html`, so GitHub Pages and Netlify keep the 404 page alive.
+- Need a third language? Add it to `src/i18n/ui.ts`, extend translations, and drop in new content folders.
+- To pull the latest template updates, run `make update-template`. The script grabs fresh code, updates components and assets, and leaves your content and configs untouched.
 
-Grab the code, tweak the config, write posts in Markdown or MDX, and you have the same blog setup I use on [sereja.com](https://sereja.com/). If you spot a bug or think of a nice upgrade, open an issue on [GitHub](https://github.com/JustSereja/morethan-log-astro) or just ping me.
+The same template runs here on [sereja.com](https://sereja.com/). Take it, set it up, and write. If you spot a bug or think of something cool, open an issue on [GitHub](https://github.com/JustSereja/morethan-log-astro) or just ping me.
