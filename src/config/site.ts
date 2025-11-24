@@ -10,7 +10,7 @@ const siteConfig: SiteConfig = {
   },
   description: {
     en: "My personal corner where I try to find something cool and funny and capture it",
-    ru: 'Мой личный уголок, где я пытаюсь найти что-то крутое, и прикольное, и запечатлеть это',
+    ru: 'В вечных поисках так называемого прикола. Знаешь что-то прикольное? Поделись!',
   },
 
   // Author information
@@ -23,7 +23,7 @@ const siteConfig: SiteConfig = {
     avatar: '/img/avatar.png',
     bio: {
       en: "Well, I’m just a simple guy. Trying to find or create some cool stuff around the internet or in real life sometimes. Just in search of some fun stuff or joke.",
-      ru: 'Я просто обычный парень. Пытаюсь найти или создать что-то крутое в интернете или иногда в реальной жизни. Просто в поиске фана, и чего-то прикольного.',
+      ru: 'Я просто обычный парень. Пытаюсь найти или создать что-то крутое в интернете или иногда в реальной жизни. В поиске фана, и чего-то прикольного.',
     },
   },
 
